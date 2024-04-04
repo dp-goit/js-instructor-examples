@@ -1,6 +1,7 @@
 # Moduł 2 - Lekcja 4 - Funkcje
 
 ## Zadanie 1 - BMI
+
 Napisz funkcję `calcBMI(weight, height)`, która obliczy i zwróci BMI użytownika. Aby to zrobić, podzielwagę użytkowinika w kilogramach przez kwadrat wzrostu w metrach.
 
 Waga oraz wzrost będą przekazane do fukncji jako tekst. W związku z tym mogą mieć one format `24.7` oraz `24,7`, przecinek także może być użyty to jako separator części ułamkowej.
@@ -24,9 +25,9 @@ console.log(min(1, 1)); // 1
 
 ## Zadanie 3 - Powierzchnia prostokąta
 
-Write a function `getRectArea(dimensions)` to calculate the area of a rectangle
-with sides, the values of which will be passed to the `dimensions` parameter as a string.
-Values are guaranteed to be separated by a space.
+Napisz funkcję `getRectArea(dimensions)`, która obliczy powierzchnię prostokąta, którego długość boków zostanie przekazana w parametrze `dimensions` jako tekst.
+
+Wartości zawsze będą rozdzielone spacjami.
 
 ```js
 function getRectArea(dimensions) {}
@@ -34,15 +35,11 @@ function getRectArea(dimensions) {}
 console.log(getRectArea('8 11'));
 ```
 
-## Zadanie 4 - Element logging
+## Zadanie 4 - Wyświetlanie elementów
 
-Write a function `logItems(items)` that takes an array and uses a `for` loop
-that for each element of the array will print a message to the console
-in the format `<item number> - <item value>`. The numbering
-of elements should start with `1`.
+Napisz funkcję `logItems(items)` która przyjmuje tablicę i korzystając z pętli `for`, wyświetla dla każdego elementu wiadomość w konsoli wg formatu `<item number> - <item value>`. Numereacja elementów rozpoczyna się od `1`.
 
-For Zadanie, for the first element of the array `['Mango', 'Poly', 'Ajax']` with index `0`
-will print `1 - Mango` and for index 2 will print `3 - Ajax`.
+Na przykład, w tablicy `['Mango', 'Poly', 'Ajax']` dla elementu z indeksem `0` wyświetlimy `1 - Mango` a dla indeksu 2, wyświetlimy `3 - Ajax`.
 
 ```js
 function logItems(items) {}
@@ -51,13 +48,9 @@ logItems(['Mango', 'Poly', 'Ajax']);
 logItems(['🍎', '🍇', '🍑', '🍌', '🍋']);
 ```
 
-## Zadanie 5 - Contact logging
+## Zadanie 5 - Wyświetlanie kontaktów
 
-Write a function `printContactsInfo(names, phones)` that prints  to the console the name
-and the user's phone number. The `names` and `phones` parameters will be passed
-strings of names and phone numbers separated by commas. Sequence number of names and
-phone numbers in the rows indicate a match. Number of names and phones
-guaranteed to be the same.
+Napisz funkcję `printContactsInfo(names, phones)` która wyświetli w konsoli imię oraz numer telefonu. Parametry `names` oraz `phones` zostaną przekazane do funkcji w formie ciągów znaków, rozdzielone przecinkami. Kolejność imion, odpowiada kolejności numerów telefonów oraz zakładamy, że ilość imion i numerów jest taka sama.
 
 ```js
 function printContactsInfo(names, phones) {}
@@ -68,10 +61,9 @@ printContactsInfo(
 );
 ```
 
-## Zadanie 6 - Finding the largest element
+## Zadanie 6 - Szukanie największego elementu
 
-Write a function `findLargestNumber(numbers)` that looks for the largest number in
-array.
+Napisz funkcję `findLargestNumber(numbers)` która zwraca największą liczbę w tablicy.
 
 ```js
 function findLargestNumber(numbers) {}
@@ -80,10 +72,9 @@ console.log(findLargestNumber([2, 17, 94, 1, 23, 37])); // 94
 console.log(findLargestNumber([49, 4, 7, 83, 12])); // 83
 ```
 
-## Zadanie 7 - Average value
+## Zadanie 7 - Średnia wartość
 
-Write a `calAverage()` function that takes an arbitrary number of arguments
-and returns their average. All arguments will be only numbers.
+Napisz funkcję `calAverage()` która przyjmuje stałą liczbę argumentów oraz zwraca ich średnią wartość. Zakładamy, że wszystkie argumenty przekazane do funkcji są zawsze liczbami.
 
 ```js
 function calAverage() {}
@@ -93,10 +84,10 @@ console.log(calAverage(14, 8, 2)); // 8
 console.log(calAverage(27, 43, 2, 8, 36)); // 23.2
 ```
 
-## Zadanie 8 - Time Formatting
+## Zadanie 8 - Formatowanie czasu
 
-Write a function `formatTime(minutes)` that will translate the value of `minutes`
-(number of minutes) to a string in hour and minute format `HH:MM`.
+Napisz funkcję `formatTime(minutes)` która zamieni wartość argumentu `minutes`
+(ilość minut) na godzinę w formacie `HH:MM`.
 
 ```js
 const hours = Math.floor(totalMinutes / 60);
@@ -115,20 +106,20 @@ console.log(formatTime(450)); // "07:30"
 console.log(formatTime(1441)); // "24:01"
 ```
 
-## Zadanie 9 -Collection of courses (includes, indexOf, push, etc.)
+## Zadanie 9 - Kolekcja kursów (includes, indexOf, push, itd.)
 
-Write functions to work with the `courses` collection of training courses:
+Napisz funkcje do pracy z tablicą `courses`:
 
-- `addCourse(name)` - adds a course to the end of the collection
-- `removeCourse(name)` - removes a course from the collection
-- `updateCourse(oldName, newName)` - changes the name to a new one
+- `addCourse(name)` - dodaje nowy kurs na końcu tablicy,
+- `removeCourse(name)` - usuwa dany element z tablicy,
+- `updateCourse(oldName, newName)` - zmienia nazwę kursu na nową.
 
 ```js
 const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL'];
 
 addCourse('Express');
 console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL', 'Express']
-addCourse('CSS'); // ' You already have this course'
+addCourse('CSS'); // 'You already have this course'
 
 removeCourse('React');
 console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'Express']

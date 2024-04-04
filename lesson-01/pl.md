@@ -1,6 +1,6 @@
 # Moduł 1. Lekcja 1. Zmienne, typy i operatory 
 
-## Zadanie 1 - Operacje matematyczna
+## Zadanie 1 - Operacje matematyczne
 
 Wyświetl sumę jabłek i wynogron oraz różnicę w ilości jabłek i winogron w konsoli.
 
