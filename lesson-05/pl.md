@@ -56,8 +56,8 @@ Napisz skrypt, umożliwiający zarządzanie bankiem internetowym. Obiekt `accoun
 
 ```js
 /*
- * There are only two types of transaction.
- * You can deposit or withdraw money from your account.
+ * Są tylko 2 typy transakcji.
+ * Możesz wpłacić (deposit) lub wypłacić (withdraw) pieniądze z konta.
  */
 const Transaction = {
   DEPOSIT: 'deposit',
@@ -65,54 +65,54 @@ const Transaction = {
 };
 
 /*
- * Each transaction is an object with properties: id, type and amount
+ * Każda transakcja jest obiektem z właściwościami: id, type (typ) oraz amount (ilość / wartość)
  */
 
 const account = {
-  // Current account balance
+  // Aktualny stan konta
   balance: 0,
 
-  // Transaction History
+  // Historia transakcji
   transactions: [],
 
   /*
-   * Method creates and returns a transaction object.
-   * Accepts amount and type of transaction.
+   * Metoda tworzy i zwraca obiekt transakcji.
+   * Jako parametry przyjmuje wartość oraz typ transakcji.
    */
   createTransaction(amount, type) {},
 
   /*
-   * The method responsible for adding the amount to the balance..
-   * Accepts the amount of the transaction.
-   * Calls createTransaction to create a transaction object
-   * then adds it to the transaction history
+   * Ta metoda jest odpowiedzialna za dodawanie wartości do balansu konta,
+   * przyjmuje wartość wpłaty,
+   * wywołuje createTransaction, aby stworzyć obiekt transakcji,
+   * na koniec dodaje go do historii transakcji
    */
   deposit(amount) {},
 
   /*
-   *The method responsible for withdrawing the amount from the balance.
-   * Принимает сумму танзакции.
-   * Calls createTransaction to create a transaction object
-   * then adds it to the transaction history.
+   * Ta metoda jest odpowiedzialna za wypłacanie wartości z konta.
+   * przyjmuje wartość wypłaty,
+   * wywołuje createTransaction, aby stworzyć obiekt transakcji,
+   * na koniec dodaje go do historii transakcji.
    *
-   * If amount is greater than the current balance, display a message
-   * about the fact that the withdrawal of such an amount is not possible, there are not enough funds.
+   * Jeżeli wartość wypłaty przekracza aktualny stan konta, wyświtla wiadomość,
+   * że ze względu na niewystarczające środki na koncie, wypłata jest niemożliwa.
    */
   withdraw(amount) {},
 
   /*
-   * The method returns the current balance
+   * Metoda zwraca aktualną wartość konta.
    */
   getBalance() {},
 
   /*
-   * The method searches and returns the transaction object by id
+   * Metoda wyszukuje oraz zwraca obiekt transakcji na podstawie id.
    */
   getTransactionDetails(id) {},
 
   /*
-   * The method returns the amount of funds
-   *a specific type of transaction from the entire history of transactions
+   * Metoda zwraca sumę wartości transakcji
+   * dla konkretnego typu transakcji z całej historii.
    */
   getTransactionTotal(type) {},
 };

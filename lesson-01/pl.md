@@ -2,7 +2,7 @@
 
 ## Zadanie 1 - Operacje matematyczne
 
-Wyświetl sumę jabłek i wynogron oraz różnicę w ilości jabłek i winogron w konsoli.
+Wyświetl sumę jabłek i winogron oraz różnicę w ilości jabłek i winogron w konsoli.
 
 ```js
 const apples = 47;
@@ -42,7 +42,7 @@ const value = 27.5;
 
 ## Zadanie 5 - Interpolacja ciągów znaków
 
-Stwórz frazę, korzystając z interpolacji cjągów: `A has B bots in stock`, gdzie A oraz B to zmienne variables inserted into a line.
+Stwórz frazę, korzystając z interpolacji ciągów: `A has B bots in stock`, gdzie A oznacza nazwę firmy, B oznacza sumę robotów.
 
 ```js
 const companyName = 'Cyberdyne Systems';
@@ -58,7 +58,7 @@ Napisz skrypt, który oblicza BMI użytkownika. W tym celu musimy podzielić wag
 
 Waga i wzrost są zadeklarowane w zmiennych `weight` and `height`, lecz jako ciągi znaków, nie liczby (celowo na potrzeby zadania). Wartości nieliczbowe mogą być podane jako `24.7` lub `24,7`, separatorem części dziesiętnej może być przecinek.
 
-BMI powinien być zaokrąglony do jednej liczby po przecinku.
+BMI powinno być zaokrąglone do jednej liczby po przecinku.
 
 ```js
 let weight = '88,3';
