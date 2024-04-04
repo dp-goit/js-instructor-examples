@@ -1,6 +1,6 @@
 # Moduł 4. Lekcja 7. Wywołania zwrotne. Funkcje strzałkowe. forEach
 
-## Przykład 1 - Funkcja zwrotna
+## Zadanie 1 - Funkcja zwrotna
 
 Napisz następujące funkcje:
 
@@ -28,7 +28,7 @@ createProduct({ name: '🍎', price: 30, quantity: 3 }, logProduct);
 createProduct({ name: '🍋', price: 20, quantity: 5 }, logTotalPrice);
 ```
 
-## Przykład 2 - Funkcja zwrotna
+## Zadanie 2 - Funkcja zwrotna
 
 Dodaj metody `withdraw(amount, onSuccess, onError)` do obiektu account oraz `deposit(amount, onSuccess, onError)`, gdzie pierwszy parametr to kwota operacji, a drugi i trzeci to funkcje zwrotne.
 
@@ -81,7 +81,7 @@ account.deposit(-600, handleSuccess, handleError);
 account.deposit(600, handleSuccess, handleError);
 ```
 
-## Przykład 3 - Funkcja zwrotna
+## Zadanie 3 - Funkcja zwrotna
 
 Napisz funkcję `each(array, callback)`, która jako pierwszy parametr przyjmuje tablicę, a jako drugi - funkcję, która zostanie zastosowana do każdego elementu tablicy. Funkcja each musi zwrócić nową tablicę, której elementami będą wyniki
 wywołania funkcji zwrotnej.
@@ -123,7 +123,7 @@ console.log(
 );
 ```
 
-## Przykład 4 - Funkcje strzałkowe
+## Zadanie 4 - Funkcje strzałkowe
 
 Przeprowadź refaktoryzację kodu, używając funkcji strzałkowych.
 
@@ -145,7 +145,7 @@ createProduct({ name: '🍎', price: 30, quantity: 3 }, logProduct);
 createProduct({ name: '🍋', price: 20, quantity: 5 }, logTotalPrice);
 ```
 
-## Przykład 5 - Funkcje strzałkowe
+## Zadanie 5 - Funkcje strzałkowe
 
 Przeprowadź refaktoryzację kodu, używając funkcji strzałkowych.
 
@@ -195,7 +195,7 @@ account.deposit(-600, handleSuccess, handleError);
 account.deposit(600, handleSuccess, handleError);
 ```
 
-## Przykład 6 - Wbudowane funkcje strzałkowe
+## Zadanie 6 - Wbudowane funkcje strzałkowe
 
 Przeprowadź refaktoryzację kodu, używając funkcji strzałkowych.
 
@@ -235,7 +235,7 @@ console.log(
 );
 ```
 
-## Przykład 7 - Metoda forEach
+## Zadanie 7 - Metoda forEach
 
 Przeprowadź refaktoryzację kodu, używając metody `forEach` i funkcji
 strzałkowych.
@@ -252,7 +252,7 @@ logItems(['Mango', 'Poly', 'Ajax']);
 logItems(['🍎', '🍇', '🍑', '🍌', '🍋']);
 ```
 
-## Przykład 8 - Metoda forEach
+## Zadanie 8 - Metoda forEach
 
 Przeprowadź refaktoryzację kodu, używając metody `forEach` i funkcji
 strzałkowych.
@@ -272,7 +272,7 @@ printContactsInfo({
 });
 ```
 
-## Przykład 9 - Metoda forEach
+## Zadanie 9 - Metoda forEach
 
 Przeprowadź refaktoryzację kodu, używając metody `forEach` i funkcji
 strzałkowych.

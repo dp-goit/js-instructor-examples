@@ -87,7 +87,7 @@ const cars = [
 ];
 ```
 
-## Przykład 1 - Metoda Mapująca
+## Zadanie 1 - Metoda Mapująca
 
 Niech funkcja `getModels` zwraca tablicę modeli (pole model) wszystkich samochodów.
 
@@ -97,7 +97,7 @@ const getModels = cars => {};
 console.table(getModels(cars));
 ```
 
-## Przykład 2 - Metoda Mapująca
+## Zadanie 2 - Metoda Mapująca
 
 Niech funkcja `makeCarsWithDiscount` zwraca nową tablicę obiektów z zmienioną wartością właściwości `price` w zależności od przekazanej zniżki.
 
@@ -108,7 +108,7 @@ console.table(makeCarsWithDiscount(cars, 0.2));
 console.table(makeCarsWithDiscount(cars, 0.4));
 ```
 
-## Przykład 3 - Metoda Filtrująca
+## Zadanie 3 - Metoda Filtrująca
 
 Niech funkcja `filterByPrice` zwraca tablicę samochodów, których cena jest mniejsza niż wartość parametru `threshold`.
 
@@ -119,7 +119,7 @@ console.table(filterByPrice(cars, 30000));
 console.table(filterByPrice(cars, 25000));
 ```
 
-## Przykład 4 - Metoda Filtrująca
+## Zadanie 4 - Metoda Filtrująca
 
 Niech funkcja `getCarsWithDiscount` zwraca tablicę samochodów, których właściwość onSale ma wartość true.
 
@@ -129,7 +129,7 @@ const getCarsWithDiscount = cars => {};
 console.table(getCarsWithDiscount(cars));
 ```
 
-## Przykład 5 - Metoda Filtrująca
+## Zadanie 5 - Metoda Filtrująca
 
 Niech funkcja `getCarsWithType` zwraca tablicę samochodów, których typ zgadza się z wartością parametru `type`.
 
@@ -140,7 +140,7 @@ console.table(getCarsWithType(cars, 'suv'));
 console.table(getCarsWithType(cars, 'sedan'));
 ```
 
-## Przykład 6 - Metoda Szukająca
+## Zadanie 6 - Metoda Szukająca
 
 ```js
 const getCarByModel = (cars, model) => {};
@@ -149,7 +149,7 @@ console.log(getCarByModel(cars, 'F-150'));
 console.log(getCarByModel(cars, 'CX-9'));
 ```
 
-## Przykład 7 - Metoda Sortująca
+## Zadanie 7 - Metoda Sortująca
 
 Niech funkcja `sortByAscendingAmount` zwraca nową tablicę samochodów posortowaną rosnąco według wartości właściwości `amount`.
 
@@ -159,7 +159,7 @@ const sortByAscendingAmount = cars => {};
 console.table(sortByAscendingAmount(cars));
 ```
 
-## Przykład 8 - Metoda Sortująca
+## Zadanie 8 - Metoda Sortująca
 
 Niech funkcja `sortByDescendingPrice` zwraca nową tablicę samochodów posortowaną malejąco według wartości właściwości `price`.
 
@@ -169,7 +169,7 @@ const sortByDescendingPrice = cars => {};
 console.table(sortByDescendingPrice(cars));
 ```
 
-## Przykład 9 - Metoda Sortująca
+## Zadanie 9 - Metoda Sortująca
 
 Niech funkcja `sortByModel` zwraca nową tablicę samochodów posortowaną według nazwy modelu alfabetycznie i odwrotnie alfabetycznie, w zależności od wartości parametru `order`.
 
@@ -180,7 +180,7 @@ console.table(sortByModel(cars, 'asc'));
 console.table(sortByModel(cars, 'desc'));
 ```
 
-## Przykład 10 - Metoda Agregacyjna
+## Zadanie 10 - Metoda Agregacyjna
 
 Niech funkcja `getTotalAmount` zwraca całkowitą liczbę samochodów (wartość właściwości `amount`).
 
@@ -190,7 +190,7 @@ const getTotalAmount = cars => {};
 console.log(getTotalAmount(cars));
 ```
 
-## Przykład 11 - Łańcuchy metod
+## Zadanie 11 - Łańcuchy metod
 
 Niech funkcja `getModelsOnSale` zwraca tablicę modeli samochodów, ale tylko tych, które aktualnie są na sprzedaż.
 
@@ -200,7 +200,7 @@ const getModelsOnSale = cars => {};
 console.table(getModelsOnSale(cars));
 ```
 
-## Przykład 12 - Łańcuchy metod
+## Zadanie 12 - Łańcuchy metod
 
 Niech funkcja `getSortedCarsOnSale` zwraca tablicę samochodów na sprzedaż (właściwość onSale), posortowaną rosnąco według ceny.
 

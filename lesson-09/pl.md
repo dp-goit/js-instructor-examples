@@ -1,6 +1,6 @@
 # Moduł 5 - Lekcja 9 - Kontekst wywołania funkcji i słowo kluczowe this
 
-## Przykład 1 - Warsztat jubilerski
+## Zadanie 1 - Warsztat jubilerski
 
 Napisz metodę `calcTotalPrice(stoneName)`, która przyjmuje nazwę kamienia, oblicza i zwraca całkowity koszt kamieni o tej nazwie, ceny i ilości z właściwości `stones`.
 
@@ -21,7 +21,7 @@ console.log(chopShop.calcTotalPrice('Sapphire')); // 9800
 console.log(chopShop.calcTotalPrice('Ruby')); // 1600
 ```
 
-## Przykład 2 -  Książka telefoniczna
+## Zadanie 2 -  Książka telefoniczna
 
 Przerób metody obiektu `phonebook`, aby kod działał.
 
@@ -60,7 +60,7 @@ console.log(
 );
 ```
 
-## Przykład 3 - Kalkulator
+## Zadanie 3 - Kalkulator
 
 Utwórz obiekt `calculator` z trzema metodami:
 

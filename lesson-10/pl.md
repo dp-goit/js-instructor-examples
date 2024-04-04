@@ -1,6 +1,6 @@
 # Moduł 5 - Lekcja 10 - Prototypy i klasy
 
-## Przykład 1 - Bloger
+## Zadanie 1 - Bloger
 
 Napisz klasę `Blogger`, aby stworzyć obiekt blogera z następującymi
 właściwościami:
@@ -41,7 +41,7 @@ poly.updatePostCount(4);
 console.log(poly.getInfo()); // Użytkownik poly@mail.com ma 19 lat, i ma 21 postów.
 ```
 
-## Przykład 2 - Magazyn
+## Zadanie 2 - Magazyn
 
 Napisz klasę `Storage`, która tworzy obiekty do zarządzania magazynem towarów. Przy wywołaniu otrzyma jeden argument - początkową tablicę towarów i zapisze ją do właściwości `items`.
 
@@ -64,7 +64,7 @@ storage.removeItem('🍋');
 console.table(storage.items); // [ '🍎', '🍇', '🍑', '🍌' ]
 ```
 
-## Przykład 3 - Użytkownik
+## Zadanie 3 - Użytkownik
 
 Napisz klasę `User`, która tworzy obiekt z właściwościami `login` i `email`. Zadeklaruj prywatne właściwości `#login` i `#email`, które można uzyskać za pomocą gettera i settera `login` i `email`.
 
@@ -88,7 +88,7 @@ poly.login = 'Polycutie';
 console.log(poly.login); // Polycutie
 ```
 
-## Przykład 4 - Notatki
+## Zadanie 4 - Notatki
 
 Napisz klasę `Notes`, która zarządza kolekcją notatek w właściwości `items`. Notatka to obiekt z właściwościami `text` i `priority`. Dodaj właściwość statyczną `Priority` do klasy, która będzie przechowywać obiekt z priorytetami.
 
@@ -121,7 +121,7 @@ myNotes.updateNote('My second note', Notes.Priority.HIGH);
 console.log(myNotes.items);
 ```
 
-## Przykład 5 - Przełącznik
+## Zadanie 5 - Przełącznik
 
 Napisz klasę `Toggle`, która przyjmuje obiekt ustawień `{isOpen: boolean}` i deklaruje jedną właściwość `on` - stan włączony/wyłączony (true/false). Domyślnie wartość właściwości `on` powinna być `false`.
 

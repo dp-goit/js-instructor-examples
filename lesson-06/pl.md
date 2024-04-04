@@ -1,6 +1,6 @@
 # Moduł 3 Lekcja 6. Dekonstrukcja i rest/spread
 
-## Przykład 1 - Dekonstrukcja
+## Zadanie 1 - Dekonstrukcja
 
 Przepisz funkcję tak, aby pobierała jeden obiekt parametru zamiast zestawu niezależnych argumentów.
 
@@ -37,7 +37,7 @@ console.log(
 );
 ```
 
-## Przykład 2 - Dekonstrukcja
+## Zadanie 2 - Dekonstrukcja
 
 Przepisz funkcję tak, aby pobierała jeden obiekt parametru zamiast zestawu niezależnych argumentów.
 
@@ -63,7 +63,7 @@ printContactsInfo({
 });
 ```
 
-## Przykład 3 - Głęboka dekonstrukcja
+## Zadanie 3 - Głęboka dekonstrukcja
 
 Przepisz funkcję tak, aby używała jednego obiektu parametru zamiast zestawu niezależnych argumentów.
 
@@ -87,7 +87,7 @@ console.log(
 ); // "Cyberdyne Systems has 200 bots in stock"
 ```
 
-## Przykład 4 - Dekonstrukcja
+## Zadanie 4 - Dekonstrukcja
 
 Przepisz funkcję tak, aby akceptowała obiekt parametrów z właściwościami `companyName` i `stock` oraz wyświetlała raport o liczbie produktów w magazynie dla dowolnych firm.
 
@@ -124,7 +124,7 @@ console.log(
 ); // "Belacci has 35 item in stock"
 ```
 
-## Przykład 5 - Operacja Spread
+## Zadanie 5 - Operacja Spread
 
 Rozszerz funkcję `createContact(partialContact)` tak, aby zwracała nowy
 obiekt kontaktu z dodanymi właściwościami `id` i `createdAt`, a także list z
@@ -160,7 +160,7 @@ function generateId() {
 }
 ```
 
-## Przykład 6 - Operacja rest
+## Zadanie 6 - Operacja rest
 
 Napisz funkcję `transformUsername(user)`, aby zwrócić nowy obiekt
 z właściwością `fullName` zamiast `firstName` i `lastName`.
