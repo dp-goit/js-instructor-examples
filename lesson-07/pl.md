@@ -4,14 +4,10 @@
 
 Napisz następujące funkcje:
 
-- `createProduct(obj, callback)` - przyjmuje obiekt produktu bez identyfikatora
-  (`id`), a także funkcję zwrotną. Funkcja tworzy obiekt produktu dodając do
-  niego unikalny identyfikator w właściwości `id` i wywołuje funkcję zwrotną,
+- `createProduct(obj, callback)` - przyjmuje obiekt produktu bez identyfikatora (`id`), a także funkcję zwrotną. Funkcja tworzy obiekt produktu dodając do niego unikalny identyfikator w właściwości `id` i wywołuje funkcję zwrotną,
   przekazując jej utworzony obiekt.
-- `logProduct(product)` - funkcja zwrotna przyjmująca obiekt produktu i logująca
-  go do konsoli
-- `logTotalPrice(product)` - funkcja zwrotna przyjmująca obiekt produktu i
-  logująca całkowitą wartość produktu w konsoli
+- `logProduct(product)` - funkcja zwrotna przyjmująca obiekt produktu i logująca go do konsoli
+- `logTotalPrice(product)` - funkcja zwrotna przyjmująca obiekt produktu i logująca całkowitą wartość produktu w konsoli
 
 ```js
 // Rozwiązanie
@@ -87,9 +83,7 @@ account.deposit(600, handleSuccess, handleError);
 
 ## Przykład 3 - Funkcja zwrotna
 
-Napisz funkcję `each(array, callback)`, która jako pierwszy parametr przyjmuje
-tablicę, a jako drugi - funkcję, która zostanie zastosowana do każdego elementu
-tablicy. Funkcja each musi zwrócić nową tablicę, której elementami będą wyniki
+Napisz funkcję `each(array, callback)`, która jako pierwszy parametr przyjmuje tablicę, a jako drugi - funkcję, która zostanie zastosowana do każdego elementu tablicy. Funkcja each musi zwrócić nową tablicę, której elementami będą wyniki
 wywołania funkcji zwrotnej.
 
 ```js
