@@ -16,7 +16,7 @@ function calcBMI(weight, height) {
 // console.log(calcBMI('68,3', '1.65'));
 // console.log(calcBMI('118,3', '1.95'));
 
-// Is expected 
+// Oczekujemy
 console.log(
   calcBMI({
     weight: '88,3',
@@ -89,9 +89,7 @@ console.log(
 
 ## Przykład 4 - Dekonstrukcja
 
-Przepisz funkcję tak, aby akceptowała obiekt parametrów z właściwościami
-`companyName` i `stock` oraz wyświetlała raport o liczbie produktów w magazynie
-dla dowolnych firm.
+Przepisz funkcję tak, aby akceptowała obiekt parametrów z właściwościami `companyName` i `stock` oraz wyświetlała raport o liczbie produktów w magazynie dla dowolnych firm.
 
 
 ```js
