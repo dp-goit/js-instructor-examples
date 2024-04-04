@@ -5,7 +5,7 @@
 1. Zadeklaruj tablicę `genres`, zawierającą elementy `Jazz` oraz `Blues`.
 2. Dodaj `Rock and Roll` na końcu tablicy.
 3. Wyświetl pierwszy element tablicy w konsoli.
-4. Wyświetl ostatni element tablicy w konsoli. Kod podinien zadziałać dla dowolnej ilości elementów w tablicy.
+4. Wyświetl ostatni element tablicy w konsoli. Kod powinien zadziałać dla dowolnej ilości elementów w tablicy.
 5. Usuń pierwszy element tablicy i wyświetl go w konsoli.
 6. Dodaj `Country` oraz `Reggae` na początku tablicy.
 
@@ -23,7 +23,7 @@ const values = '8 11';
 
 ## Zadanie 3 - Iteracja tablicy
 
-Napisz skrypt, który wyświetli w konsoli wszystkie elementy tablicy w formacie `numer_elementu: wartość_elementy`. Numerację elementów zaczynamy od 1.
+Napisz skrypt, który wyświetli w konsoli wszystkie elementy tablicy w formacie `numer_elementu: wartość_elementu`. Numerację elementów zaczynamy od 1.
 
 ```js
 const fruits = ['🍎', '🍇', '🍑', '🍌', '🍋'];

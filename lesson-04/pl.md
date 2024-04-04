@@ -2,9 +2,9 @@
 
 ## Zadanie 1 - BMI
 
-Napisz funkcję `calcBMI(weight, height)`, która obliczy i zwróci BMI użytownika. Aby to zrobić, podzielwagę użytkowinika w kilogramach przez kwadrat wzrostu w metrach.
+Napisz funkcję `calcBMI(weight, height)`, która obliczy i zwróci BMI użytownika. Aby to zrobić, podziel wagę użytkowinika w kilogramach przez kwadrat wzrostu w metrach.
 
-Waga oraz wzrost będą przekazane do fukncji jako tekst. W związku z tym mogą mieć one format `24.7` oraz `24,7`, przecinek także może być użyty to jako separator części ułamkowej.
+Waga oraz wzrost będą przekazane do fukncji jako tekst. W związku z tym mogą mieć one format `24.7` oraz `24,7`, przecinek także może być użyty jako separator części ułamkowej.
 
 BMI powinno być zaokrąglone do jednego miejsca po przecinku.
 

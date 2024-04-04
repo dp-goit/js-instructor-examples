@@ -110,7 +110,7 @@ const daysUntilDeadline = 5;
 // Write code below this line
 ```
 
-## Zadanie 10 - Project submission deadline (switch)
+## Zadanie 10 - Termin przesłania projektu (switch)
 
 Zmodyfikuj kod z poprzedniego zadania, wykorzystując instrukcję `switch`.
 
@@ -128,7 +128,7 @@ if (daysUntilDeadline === 0) {
 }
 ```
 
-## Zadanie 11 - The for loop 
+## Zadanie 11 - Pętla for 
 
 Napisz pętlę for, która wyświetla w konsoli rosnąco liczby podzielne przez 5 z zakresu od `min` do `max`.
 
@@ -137,7 +137,7 @@ const max = 100;
 const min = 20;
 ```
 
-## Zadanie 12 - User Input and Branching 
+## Zadanie 12 - Dane użytkownika i rozgałęzianie 
 
 Napisz skrypt, który zapyta o login używając okna dialogowego prompt i wyświetl wynik w konsoli.
 

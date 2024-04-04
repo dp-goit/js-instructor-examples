@@ -9,7 +9,7 @@ Napisz skrypt, który do obiektu `user`:
 - dodaje pole `mood` z wartością `'happy'`,
 - zmianie wartość `hobby` na `'skydiving'`,
 - zmienia wartość `premium` na `false`,
-- wyświetla zarwartość obiektu `user` w formacie `key:value`, używając `Object.keys()` oraz `for...of`.
+- wyświetla zawartość obiektu `user` w formacie `key:value`, używając `Object.keys()` oraz `for...of`.
 
 ### Kod
 
@@ -24,7 +24,7 @@ const user = {
 
 ## Zadanie 2 -  Metoda Object.values()
 
-Mamy obiektu, który zwiera informacje o wypłatach zespołu. Napisz kod, który sumuje wszystkie wypłaty i przechowuje wynik w zmiennej `sum`. Poprawny wynik to 390. Jeżeli obiekt `salaries` jest pusty, wynik powinien wynosić 0.
+Mamy obiekt, który zwiera informacje o wypłatach zespołu. Napisz kod, który sumuje wszystkie wypłaty i przechowuje wynik w zmiennej `sum`. Poprawny wynik to 390. Jeżeli obiekt `salaries` jest pusty, wynik powinien wynosić 0.
 
 ### Kod
 
